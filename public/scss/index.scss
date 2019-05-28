@@ -1,0 +1,11 @@
+/* Reset All the default styles of various browsers*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}

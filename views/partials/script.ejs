@@ -1,0 +1,7 @@
+<% scripts.forEach(function(script) { %>
+    <script src="<%= script %>?v=<%= deployVersion %>"></script>
+<% }) %>
+<script>
+    window.UI_HOST = '<%= ENVOBJ.UI_HOST %>';
+    window.YOUTUBE_API_KEY = '<%= ENVOBJ.YOUTUBE_API_KEY %>';
+</script>

@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^8.0.0",
+    "ejs": "2.5.7",
+    "express": "^4.17.0",
+    "express-dynamic-helpers-patch": "0.0.2",
+    "jade": "~1.11.0",
+    "livereload": "^0.7.0",
+    "morgan": "^1.9.1",
+    "reload": "^3.0.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "express-minify-html": "^0.12.0",
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
