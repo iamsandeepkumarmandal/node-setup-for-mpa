@@ -61,6 +61,7 @@ require('express-dynamic-helpers-patch')(app);
 app.dynamicHelpers({
   ENVOBJ: function (req, res) {
     return {
+      NODE_ENV: process.env.NODE_ENV,
       UI_HOST: process.env.UI_HOST,
       YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY,
     }
