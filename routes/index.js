@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
       },
       headStyles: ['./css/style.css'],
       bodystyles: ['./css/index.css'],
-      scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './javascripts/menu.js'],
+      scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './scripts/compressed/menu.js'],
     });
 });
 
@@ -30,7 +30,7 @@ router.get('/about', function(req, res, next) {
     },
     headStyles: ['./css/style.css'],
     bodystyles: ['./css/index.css'],
-    scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './javascripts/menu.js'],
+    scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './scripts/compressed/menu.js'],
   });
 });
 
@@ -46,7 +46,7 @@ router.get('/contact', function(req, res, next) {
     },
     headStyles: ['./css/style.css'],
     bodystyles: ['./css/index.css'],
-    scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './javascripts/menu.js'],
+    scripts: ['https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', './scripts/compressed/menu.js'],
   });
 });
 

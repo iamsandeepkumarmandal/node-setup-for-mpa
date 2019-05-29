@@ -17,6 +17,7 @@ gulp.task('start-server', function (done) {
   })
 });
 
+
 gulp.task('watch', function() {
   gulp.watch('./public/scss/**/*.scss', gulp.series(['sass']));
 });
